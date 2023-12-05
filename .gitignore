@@ -1,0 +1,4 @@
+deployments/_data/
+deployments/_db_data/
+deployments/_minio_config/
+deployments/_cache_data/

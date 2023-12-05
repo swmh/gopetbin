@@ -1,0 +1,21 @@
+version: "3.4"
+
+services:
+  storage:
+    command: server --console-address ":9001" /data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+
+  cache:
+    ports:
+      - "6379:6379"
+
+  db:
+    ports:
+      - "5432:5432"
+
+  app:
+    build: 
+      context: ../
+      dockerfile: dev.Dockerfile

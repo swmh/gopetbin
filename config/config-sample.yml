@@ -1,0 +1,35 @@
+app:
+  addr: ""
+  id_length: 0
+  max_size: 0 # max paste size in bytes
+  timeout_read: 0
+  timeout_write: 0
+  log_level: "" # debug, info, warn, error
+  public_path: ""
+  max_file_memory: 0 # maximum bytes of file data stored in memory
+  default_expiration: 0 # hours
+db:
+  addr: ""
+  user: ""
+  pass: ""
+  name: ""
+storage:
+  addr: ""
+  user: ""
+  pass: ""
+  name: ""
+cache:
+  addr: ""
+  user: ""
+  pass: ""
+  db: 0
+file_cache:
+  addr: ""
+  user: ""
+  pass: ""
+  db: 0
+locker:
+  addr: ""
+  user: ""
+  pass: ""
+  db: 0
